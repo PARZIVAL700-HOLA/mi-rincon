@@ -25,3 +25,10 @@ thead{
     background-color: rgb(58, 69, 215);
     color: white;
 }
+ul.actividades{
+    list-style-type: circle;
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+}
