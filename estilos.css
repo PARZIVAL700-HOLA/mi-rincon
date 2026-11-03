@@ -16,4 +16,12 @@ h2{
 }
 img{
     border: 5px solid white;
+    border-radius: 15px;
+}
+th, td{
+    border: 1px solid white;
+}
+thead{
+    background-color: rgb(58, 69, 215);
+    color: white;
 }
