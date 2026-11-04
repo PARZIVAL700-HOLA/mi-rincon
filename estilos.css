@@ -12,6 +12,11 @@ body{
 a{
     color: white;
 }
+/* Reto 2: Le damos estilo a un único elemento, usando el atributo id en la etiqueta la cual queremos modificar únicamente,
+y para seleccionarla usamos etiqueta#id*/
+a#datos{
+    color: aquamarine;
+}
 h1{
     color: wheat;
 }
