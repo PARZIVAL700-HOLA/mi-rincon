@@ -4,6 +4,8 @@
 body{
     color: aqua;
     background-color: black;
+    max-width: 1000px;
+    margin: auto;
 }
 a{
     color: white;
