@@ -14,6 +14,9 @@ a{
 }
 /* Reto 2: Le damos estilo a un único elemento, usando el atributo id en la etiqueta la cual queremos modificar únicamente,
 y para seleccionarla usamos etiqueta#id*/
+/* Reto 4: Gana la regla que es más específica, por ejemplo, una regla que use una clase, le gana a una regla que solo mencione
+la etiqueta. Y una regla de usa el id, le gana a la que use una una clase, ya que es la más específica al solo poder haber un elemento
+con ese id.*/
 a#datos{
     color: aquamarine;
 }
