@@ -17,6 +17,10 @@ y para seleccionarla usamos etiqueta#id*/
 a#datos{
     color: aquamarine;
 }
+/* Reto 3: Hacemos que el enlace cambie cuando el ratón pase por encima, usando la pseudoclase :hover*/
+a:hover{
+    color: blue;
+}
 h1{
     color: wheat;
 }
