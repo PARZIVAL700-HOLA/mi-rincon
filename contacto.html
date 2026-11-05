@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puerto Marina Rubicón</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<header>
+    <h1>Formulario de contacto</h1>
+    <p>Si desea ponerse en contacto con nosotros puede hacerlo rellenando el siguiente formulario. Nos pondremos en contacto con usted en la mayor brebedad posible.</p>
+    <nav>
+        <a href="index.html">index</a>
+    </nav>
+</header>
+<body>
+    <form method="get" action="enviar.php">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="José Manuel" required>
+        <br>
+        <label for="texto">Mensaje:</label>
+        <textarea type="text" name="texto" id="texto" placeholder="Me gustaría abrir un local; Quisiera alquilar un amarre para mi barco por 3 días..." required cols="50" rows="2"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
